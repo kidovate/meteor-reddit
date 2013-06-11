@@ -1,5 +1,5 @@
 Package.describe({
-    summary: "Reddit API wrapper packaged for meteor."
+    summary: "Reddit API wrapper redwrap packaged for meteor."
 });
 
 Package.on_use(function (api) {
@@ -10,4 +10,4 @@ Package.on_use(function (api) {
     );
 
 });
-Npm.depends({"handson-reddit":"0.0.0"});
+Npm.depends({"redwrap":"0.0.4"});
