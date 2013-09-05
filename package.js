@@ -8,6 +8,8 @@ Package.on_use(function (api) {
         'lib/reddit.js'
     ], 'server'
     );
+    if (api.export)
+	    api.export('Reddit');
 
 });
 Npm.depends({"redwrap":"0.0.4"});
